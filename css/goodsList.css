@@ -1,0 +1,193 @@
+#app {
+  background: #F5F5F5;
+}
+
+#wrap {
+  height: 680px;
+  background: #ccc;
+  width: 100%;
+  position: relative;
+}
+
+#wrap .box {
+  width: 100%;
+  overflow: hidden;
+}
+
+#wrap .box ul {
+  width: 8000px;
+  height: 680px;
+}
+
+#wrap .box ul li {
+  height: 680px;
+  background: pink;
+  float: left;
+}
+
+#wrap .box ul li img {
+  height: 680px;
+  margin-left: -50px;
+}
+
+#wrap .btn {
+  width: 30px;
+  height: 70px;
+  background: rgba(26, 26, 26, 0.3);
+  position: absolute;
+  top: 240px;
+  text-align: center;
+  line-height: 64px;
+  font-size: 30px;
+  color: #cecccc;
+}
+
+#wrap .btn-right {
+  right: 0px;
+}
+
+#phoness {
+  width: 1226px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+#phoness .pone {
+  font-size: 24px;
+  height: 60px;
+  line-height: 60px;
+}
+
+#phoness .phones-list {
+  height: 430px;
+}
+
+#phoness .phones-list .left {
+  width: 876px;
+  height: 430px;
+  float: left;
+}
+
+#phoness .phones-list .left img {
+  width: 875px;
+  height: 430px;
+}
+
+#phoness .phones-list .right {
+  width: 350px;
+  height: 100%;
+  float: left;
+  text-align: left;
+  padding: 80px 25px 0 50px;
+  background: white;
+}
+
+#phoness .phones-list .right p {
+  font-size: 30px;
+}
+
+#phoness .phones-list .right h3 {
+  font-size: 14px;
+  color: grey;
+  margin: 8px 0 30px 0;
+}
+
+#phoness .phones-list .right h4 {
+  font-size: 12px;
+  color: #f84646;
+}
+
+#phoness .phones-list .right h4 span {
+  font-size: 30px;
+}
+
+#phoness .phones-list .right a {
+  display: block;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 80px;
+  width: 150px;
+  height: 50px;
+  background: orange;
+  font-weight: bolder;
+  margin-left: 50px;
+  border-radius: 8px;
+}
+
+#phoness .phones-list:hover {
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translate3d(0, -5px, 0);
+          transform: translate3d(0, -5px, 0);
+}
+
+#phonesLis {
+  width: 1226px;
+  margin: 20px auto;
+  overflow: hidden;
+}
+
+#phonesLis ul {
+  width: 1250px;
+}
+
+#phonesLis ul li {
+  width: 600px;
+  height: 480px;
+  float: left;
+  position: relative;
+  margin-right: 25px;
+  background: white;
+  margin-bottom: 20px;
+}
+
+#phonesLis ul li a {
+  display: block;
+  width: 600px;
+  height: 350px;
+}
+
+#phonesLis ul li a img {
+  width: 100%;
+  height: 100%;
+}
+
+#phonesLis ul li h3 {
+  font-size: 24px;
+  margin-top: 40px;
+  text-indent: 30px;
+}
+
+#phonesLis ul li h4 {
+  text-indent: 30px;
+  font-size: 14px;
+  color: grey;
+  margin: 0.1rem;
+}
+
+#phonesLis ul li p {
+  text-indent: 30px;
+  position: absolute;
+  right: 30px;
+  bottom: 40px;
+  font-size: 30px;
+  color: red;
+}
+
+#phonesLis ul li p span {
+  font-size: 12px;
+}
+
+#phonesLis ul li:hover {
+  -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  -webkit-transform: translate3d(0, -5px, 0);
+          transform: translate3d(0, -5px, 0);
+}
+
+.idstyle {
+  color: white;
+  font-size: 10px;
+}

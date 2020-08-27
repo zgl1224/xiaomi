@@ -1,0 +1,220 @@
+#app {
+  background: white;
+  position: relative;
+}
+
+#nav1 {
+  height: 60px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+  background: white;
+}
+
+#nav1 .nav1-con {
+  width: 1226px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+#nav1 .nav1-con .left {
+  float: left;
+  height: 100%;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+#nav1 .nav1-con .right {
+  float: right;
+}
+
+#nav1 .nav1-con .right ul {
+  margin-top: 20px;
+}
+
+#nav1 .nav1-con .right ul li {
+  float: left;
+  padding: 0 10px;
+  border-left: 1px solid #dfdede;
+}
+
+#nav1 .nav1-con .right ul li a {
+  font-size: 14px;
+  color: #252525;
+}
+
+#detail {
+  overflow: hidden;
+  padding-bottom: 100px;
+}
+
+#detail .deCon {
+  width: 1226px;
+  margin: 0 auto;
+  background: pink;
+}
+
+#detail .deCon .left {
+  width: 500px;
+  height: 40px;
+  float: left;
+}
+
+#detail .deCon .left #small {
+  margin-top: 50px;
+  width: 500px;
+  height: 400px;
+}
+
+#detail .deCon .left #small img {
+  width: 500px;
+  height: 400px;
+}
+
+#detail .deCon .right {
+  width: 700px;
+  float: right;
+  padding: 40px 50px 0 50px;
+  height: 510px;
+}
+
+#detail .deCon .right h2 {
+  font-size: 30px;
+}
+
+#detail .deCon .right p {
+  font-size: 14px;
+  text-align: justify;
+  color: grey;
+  margin: 20px 0 20px;
+}
+
+#detail .deCon .right p span {
+  color: red;
+}
+
+#detail .deCon .right h3 {
+  color: red;
+  margin-bottom: 20px;
+}
+
+#detail .deCon .right h4 {
+  color: red;
+  font-size: 20px;
+}
+
+#detail .deCon .right .version {
+  margin-top: 20px;
+  width: 600px;
+  height: 60px;
+}
+
+#detail .deCon .right .version span {
+  font-size: 20px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+#detail .deCon .right .version ul {
+  width: 660px;
+}
+
+#detail .deCon .right .version ul li {
+  float: left;
+  width: 280px;
+  height: 40px;
+  border: 1px solid grey;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 40px;
+}
+
+#detail .deCon .right .version ul li a {
+  font-size: 16px;
+  color: grey;
+}
+
+#detail .deCon .right .version ul li:hover {
+  border-color: orangered;
+}
+
+#detail .deCon .right .version ul li:hover a {
+  color: orangered;
+}
+
+#detail .deCon .myChoice {
+  width: 600px;
+  height: 100px;
+  background: #f5f2f2;
+  margin-top: 40px;
+  padding: 15px 0 0 30px;
+}
+
+#detail .deCon .myChoice span {
+  font-size: 14px;
+  color: grey;
+}
+
+#detail .deCon .myChoice span:first-child {
+  margin-right: 280px;
+}
+
+#detail .deCon .myChoice p {
+  font-size: 20px;
+  color: #f33131;
+}
+
+#detail .deCon .addcart {
+  padding-top: 20px;
+}
+
+#detail .deCon .addcart .one {
+  width: 260px;
+  height: 40px;
+  background: #FE6600;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  margin-right: 20px;
+  color: white;
+}
+
+#detail .deCon .addcart .one:hover {
+  background: #e65d02;
+}
+
+#detail .deCon .addcart .two {
+  width: 200px;
+  height: 40px;
+  background: #868686;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  color: white;
+}
+
+#detail .deCon .addcart .two:hover {
+  background: #5e5d5d;
+}
+
+#detail .deCon .okok {
+  width: 540px;
+  margin-top: 10px;
+}
+
+#detail .deCon .okok li {
+  float: left;
+  color: grey;
+}
+
+#detail .deCon .okok li i {
+  font-size: 14px;
+}
+
+.idstyle {
+  color: white;
+  font-size: 10px;
+}

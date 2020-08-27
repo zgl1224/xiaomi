@@ -1,0 +1,102 @@
+html,body{
+  height: 100%;
+}
+#top{
+  width: 1226px;
+  height: 80px;
+  margin: 0 auto;
+  img{
+    height: 80px;
+  }
+}
+// main
+#main{
+  // z-index: -1;
+  // overflow: hidden;
+  .main-con{
+    height: 500px;
+
+    img{
+      height: 500px;
+      width: 100%;
+    }
+  }
+  .login-a{
+    width: 350px;
+    height: 450px;
+    background: white;
+    float: right;
+    position: relative;
+    text-align: center;
+    top: -450px;
+    right: 100px;
+    div{
+      width: 174px;
+      height: 30px;
+      // background: skyblue;
+      float: left;
+      border-right: 1px solid #ccc;
+      text-align: center;
+      line-height: 30px;
+      margin-top: 30px;
+      margin-bottom: 20px;
+      color: grey;
+    }
+    .right {
+      border: none;
+    }
+    input{
+      display: block;
+      width: 250px;
+      height: 40px;
+      margin-bottom: 20px;
+      margin-left: 50px;
+      // padding-left: 20px;
+      text-indent: 10px;
+      font-size: 12px;
+      color: rgb(85, 85, 85);
+    }
+    input[type=button]{
+      color: white;
+      background: orangered;
+      border: none;
+      width: 254px;
+    }
+    p{
+      font-size: 12px;
+      color: rgb(182, 179, 179);
+    }
+    i{
+      font-size: 20px;
+      z-index: 9999;
+    }
+    .icon-zhifubao{
+      font-size: 18px;
+    }
+  }
+}
+.nav2{
+  width: 1226px;
+  margin: 0 auto;
+  text-align: center;
+  ul{
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 400px;
+    li{
+      height: 20px;
+      text-align: center;
+      line-height: 20px;
+      float: left;
+      padding: 0 20px;
+      border-right: 1px solid #ccc;
+      font-size: 12px;
+    }
+  }
+}
+span{
+  margin-left: 150px;
+  color:grey ;
+  font-size: 12px;
+  
+}

@@ -1,0 +1,109 @@
+html, body {
+  height: 100%;
+}
+
+#top {
+  width: 1226px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+#top img {
+  height: 80px;
+}
+
+#main .main-con {
+  height: 500px;
+}
+
+#main .main-con img {
+  height: 500px;
+  width: 100%;
+}
+
+#main .login-a {
+  width: 350px;
+  height: 450px;
+  background: white;
+  float: right;
+  position: relative;
+  text-align: center;
+  top: -450px;
+  right: 100px;
+}
+
+#main .login-a div {
+  width: 174px;
+  height: 30px;
+  float: left;
+  border-right: 1px solid #ccc;
+  text-align: center;
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: grey;
+}
+
+#main .login-a .right {
+  border: none;
+}
+
+#main .login-a input {
+  display: block;
+  width: 250px;
+  height: 40px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  text-indent: 10px;
+  font-size: 12px;
+  color: #555555;
+}
+
+#main .login-a input[type=button] {
+  color: white;
+  background: orangered;
+  border: none;
+  width: 254px;
+}
+
+#main .login-a p {
+  font-size: 12px;
+  color: #b6b3b3;
+}
+
+#main .login-a i {
+  font-size: 20px;
+  z-index: 9999;
+}
+
+#main .login-a .icon-zhifubao {
+  font-size: 18px;
+}
+
+.nav2 {
+  width: 1226px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.nav2 ul {
+  height: 30px;
+  margin-top: 50px;
+  margin-left: 400px;
+}
+
+.nav2 ul li {
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  float: left;
+  padding: 0 20px;
+  border-right: 1px solid #ccc;
+  font-size: 12px;
+}
+
+span {
+  margin-left: 150px;
+  color: grey;
+  font-size: 12px;
+}

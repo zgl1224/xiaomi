@@ -1,0 +1,143 @@
+@charset "utf-8";
+*{
+    box-sizing: border-box;
+    /* cursor: pointer; */
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+input {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-size: 16px;
+    font-family: "微软雅黑";
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+b,
+strong {
+    font-weight: normal;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+a,
+u {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+input {
+    outline: none;
+}
+
+img {
+    display: block;
+    border: 0;
+}
+
+fieldset {
+    border: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+/* 封装好类名 */
+.border_none {
+    border: none !important;
+}
+
+.bg_none {
+    background: none !important;
+}
+
+.float_left {
+    float: left;
+}
+
+.float_right {
+    float: right;
+}
+
+/* 单行文本溢出省略号显示 */
+.text_ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 各种居中 */
+/* 在浏览器窗口左右居中 */
+.fixed_center {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/* 让子元素在父元素里面左右上下居中 */
+.dom_center {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/* 万能清除法 */
+.clear_fix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.clear_fix {
+    zoom: 1;
+}
+.border_none{
+    border: none;
+}

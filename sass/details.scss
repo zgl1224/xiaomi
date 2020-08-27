@@ -1,0 +1,246 @@
+#app{
+  background: white;
+  position: relative;
+}
+// 导航栏
+#nav1{
+  height: 60px;
+  border-top: 1px solid #ccc;;
+  border-bottom: 1px solid #ccc;
+  position: sticky;
+  top: 0px;
+  z-index: 1000;
+  background: white;
+  .nav1-con{
+    width: 1226px;
+    height: 100%;
+    margin: 0 auto;
+    .left{
+      float: left;
+      height: 100%;
+      line-height: 60px;
+      font-size: 18px;
+
+    }
+    .right{
+      float: right;
+      ul{
+        // width: 100%;
+        margin-top: 20px;
+        li{
+          float: left;
+          padding: 0 10px;
+          border-left: 1px solid rgb(223, 222, 222);
+          a{
+            font-size: 14px;
+            color: rgb(37, 37, 37);
+          }
+        }
+      }
+    }
+  }
+}
+// 详情页，轮播图
+#detail{
+  // height: ;
+  overflow: hidden;
+  padding-bottom: 100px;
+  .deCon{
+    width: 1226px;
+    margin: 0 auto;
+    background: pink;
+    .left{
+      width: 500px;
+      height: 40px;
+      float: left;
+      #small{
+        margin-top: 50px;
+        width: 500px;
+        height: 400px;
+        img{
+          width: 500px;
+          height: 400px;
+        }
+        // span{
+        //   background: #ccc;opacity: 0.3;position: absolute; display: none;
+        // }
+      }
+      // #big{
+      //   width: 500px;
+      //   height: 500px;
+      //   position: absolute;
+      //   top: 195px;
+      //   left: 648px;
+      //   // display: none;
+      //   overflow: hidden;
+      //   z-index: 99999999;
+      //   img{
+      //     width: 1500px;
+      //     height: 1500px;
+      //     position: absolute;
+      //   }
+      // }
+    }
+      // float: left;
+      // border-right: 1px solid #ccc;
+      //   // overflow: hidden;
+      //   // position: relative;
+      //   ul{
+      //     width: 1500px;
+      //     height: 510px;
+      //     background: #ccc;
+      //     li{
+      //       float: left;
+      //       img{
+      //         width: 500px;
+      //         height: 510px;
+      //       }
+      //     }
+
+      //   }
+      //   span{
+      //     display: block;
+      //     position: absolute;
+      //     top: 220px;
+      //     color: grey;
+      //     font-size: 30px;
+      //     width: 30px;
+      //     height: 60px;
+      //     background: rgba(30,30,30,0.5);
+      //     text-align: center;
+      //     line-height: 60px;
+      //   }
+      //   .btnR{
+      //     right:0px;
+      //   }
+    
+    .right{
+      width: 700px;
+      float: right;
+     
+      padding: 40px 50px 0 50px;
+      height: 510px;
+      // background: skyblue;
+      h2{
+        font-size: 30px;
+      }
+      p{
+        font-size: 14px;
+        text-align: justify;
+        color: grey;
+        margin:20px 0 20px;
+        span{
+          color: red;
+        }
+      }
+      h3{
+        color: red;
+        margin-bottom: 20px;
+      }
+      h4{
+        color: red;
+        font-size: 20px;
+      }
+      .version{
+        margin-top: 20px;;
+        width: 600px;
+        height: 60px;
+
+        // clear: both;
+        // overflow:hidden;
+        span{
+          font-size: 20px;
+          margin-bottom: 10px;
+          display: block;
+        }
+        ul{
+          width: 660px;
+          li{
+            float: left;
+            width: 280px;
+            height: 40px;
+            // background: green;
+            border: 1px solid grey;
+
+            text-align: center;
+            line-height: 40px;
+            margin-right: 40px;
+            a{
+              font-size: 16px;
+              color: grey;
+            }
+          }
+          li:hover{
+            border-color: orangered;
+          }
+          li:hover a{
+            color: orangered;
+          }
+        }
+      }
+    }
+    .myChoice{
+      width: 600px;
+      height: 100px;
+      background: rgb(245, 242, 242);
+      margin-top: 40px;
+      padding: 15px 0 0 30px;
+      span{
+        font-size: 14px;
+        color: grey;
+      }
+      span:first-child{
+        margin-right: 280px;
+      }
+      p{
+        font-size: 20px;
+        color: rgb(243, 49, 49);
+      }
+    }
+    .addcart{
+      padding-top: 20px;
+      .one{
+        width: 260px;
+        height: 40px;
+        background: #FE6600;
+        float: left;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 20px;
+        color: white;
+      }
+      .one:hover{
+        background: #e65d02;
+      }
+      .two{
+        width: 200px;
+        height: 40px;
+        background: #868686;
+        float: left;
+        text-align: center;
+        line-height: 40px;
+        color: white;
+      }
+      .two:hover{
+        background: #5e5d5d;
+      }
+    }
+    .okok{
+      width: 540px;
+      margin-top: 10px;
+      li{
+        float: left;
+        color: grey;
+        i{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+.idstyle{
+  color: white;
+  font-size: 10px;
+
+}

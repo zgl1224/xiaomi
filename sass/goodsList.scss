@@ -1,0 +1,183 @@
+#app{
+  background: #F5F5F5;
+  // height: 100px;
+}
+#wrap{
+  height: 680px;
+  background: #ccc;
+  width: 100%;
+  // margin: 0 auto;
+  position: relative;
+  .box{
+    width: 100%;
+    overflow: hidden;
+    ul{
+      width: 8000px;
+      height: 680px;
+      li{
+        // width: 100%;
+        height: 680px;
+        background: pink;
+        float: left;
+        img{
+          // width:100%;
+          height: 680px;
+          margin-left: -50px;
+  
+        }
+      }
+    }
+  }
+  .btn{
+    width: 30px;
+    height: 70px;
+    background:rgba($color: #1a1a1a, $alpha: 0.3);
+    position: absolute;
+    top: 240px;
+    text-align: center;
+    line-height: 64px;
+    font-size: 30px;
+    color: rgb(206, 204, 204);
+  }
+  .btn-right{
+    right: 0px;
+  }
+}
+// 手机列表
+#phoness{
+  width: 1226px;
+  height: 500px;
+  margin: 0 auto;
+  // background: skyblue;
+  .pone{
+    font-size: 24px;
+    height: 60px;
+    line-height: 60px;
+  }
+  .phones-list{
+    height: 430px;
+    // background: pink;
+    .left{
+      width: 876px;
+      height: 430px;
+      float: left;
+      // border-top: 1px solid #d8d8d8;
+      img{
+        width: 875px;
+        height: 430px;
+
+      }
+      
+    }
+    .right{
+      width: 350px;
+      height: 100%;
+      float: left;
+      text-align: left;
+      padding: 80px 25px 0 50px;
+      background: white;
+      // border-top: 1px solid rgb(160, 218, 254);
+      p{
+        font-size: 30px;
+      }
+      h3{
+        font-size: 14px;
+        color: grey;
+        margin: 8px 0 30px 0;
+      }
+      h4{
+        font-size: 12px;
+        color: rgb(248, 70, 70);
+        span{
+          font-size: 30px;
+        }
+      }
+      a{
+        display: block;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        line-height: 50px;
+        margin-top: 80px;
+        width: 150px;
+        height: 50px;
+        background: orange;
+        font-weight: bolder;
+        margin-left: 50px;
+        border-radius: 8px;
+      }
+    }
+  }
+  .phones-list:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transform: translate3d(0, -5px, 0);
+  }
+}
+
+// 手机列表1
+#phonesLis{
+  width: 1226px;
+  // margin: 20px 0;
+  margin: 20px auto;
+  // background: grey;
+  overflow: hidden;
+  ul{
+    width: 1250px;
+    li{
+      width: 600px;
+      height: 480px;
+      float: left;
+      position: relative;
+      // border-bottom: 1px solid rgb(141, 139, 248);
+      // border-top: 1px solid rgb(237, 237, 253);
+      margin-right: 25px;
+      background: white;
+      margin-bottom: 20px;
+      // padding: 0 0 0 50px;
+      a{
+        display: block;
+        width: 600px;
+        height: 350px;
+        img{
+          width: 100%;
+          height: 100%;
+
+        }
+      }
+      h3{
+        font-size: 24px;
+        margin-top: 40px;
+        text-indent: 30px;
+      }
+      h4{
+        text-indent: 30px;
+        font-size: 14px;
+        color: grey;
+        margin: 0.1rem;
+      }
+      p{
+        text-indent: 30px;
+        position: absolute;
+        right: 30px;
+        bottom: 40px;
+        font-size: 30px;
+        color: red;
+      span{
+        font-size: 12px;
+      }
+      }
+    }
+    li:hover{
+      box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+      transform: translate3d(0, -5px, 0);
+    }
+  }
+}
+// #nav-bottom{
+//   margin-top: 20px;
+// }
+.idstyle{
+  color: white;
+  font-size: 10px;
+
+}

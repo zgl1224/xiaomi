@@ -1,0 +1,168 @@
+#top {
+  height: 100px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 999999999;
+  border-bottom: 2px solid orangered;
+}
+
+#top .top-con {
+  width: 1226px;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 22px;
+}
+
+#top .top-con .imgbox {
+  float: left;
+}
+
+#top .top-con .text1 {
+  float: left;
+  margin: 10px 0 0 30px;
+}
+
+#top .top-con .text1 span {
+  font-size: 26px;
+  margin-right: 20px;
+}
+
+#top .top-con .text1 em {
+  color: grey;
+}
+
+#top .top-con .topnav {
+  float: right;
+  padding-top: 20px;
+}
+
+#top .top-con .topnav span {
+  font-size: 12px;
+  color: grey;
+  border-right: 1px solid #ccc;
+  padding: 0 20px;
+}
+
+#goodserea {
+  margin: 0 auto;
+  background: #F5F5F5;
+}
+
+#goodserea .main {
+  width: 1226px;
+  background: white;
+  margin: 0 auto;
+}
+
+#goodserea .main table {
+  font-size: 20px;
+  border-collapse: collapse;
+  color: #333;
+  border-bottom: 1px solid #666666;
+}
+
+#goodserea .main th {
+  border-bottom: 1px solid #e0e0e0;
+  width: 216px;
+  height: 60px;
+  color: black;
+  font-weight: 100;
+  font-size: 16px;
+  text-align: center;
+  background: #eeeeee;
+}
+
+#goodserea .main tr {
+  border-bottom: 1px solid #ccc;
+}
+
+#goodserea .main td {
+  height: 120px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+#goodserea .main td img {
+  float: left;
+  width: 80px;
+  height: 60px;
+  margin-right: 16px;
+}
+
+#goodserea .main td .msg {
+  position: relative;
+  top: 17px;
+}
+
+#goodserea .main .big {
+  width: 500px;
+}
+
+#goodserea .main input[type=text] {
+  width: 100px;
+  height: 30px;
+  padding: 0 30px;
+}
+
+#goodserea .main input[type=checkbox] {
+  zoom: 150%;
+}
+
+#goodserea .main .down {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  left: 36px;
+  width: 30px;
+  height: 28px;
+  line-height: 30px;
+  border-right: 1px solid #dadada;
+}
+
+#goodserea .main .up {
+  border-left: 1px solid #dadada;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  left: -36px;
+  width: 30px;
+  height: 28px;
+  line-height: 30px;
+}
+
+#goodserea .main .foot {
+  width: 1226px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+#goodserea .main .foot .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#goodserea .main .foot .box div {
+  width: 150px;
+  height: 40px;
+  color: white;
+  background: orangered;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 40px;
+}

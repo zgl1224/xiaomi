@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>登录</title>
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="./css/icon-font/iconfont.css">
+  <link rel="stylesheet" href="./css/reset.css">
+</head>
+<body>
+  <div id="app">
+    <!-- 顶部 -->
+    <div id="top">
+      <a href="./index.html">
+        <img src="./images/9.png" alt="">
+      </a>
+    </div>
+    <!-- 内容也 -->
+    <div id="main">
+      <div class="main-con">
+        <img src="./images/23.jpg" alt="">
+      </div>
+      <div class="login-a">
+        <div class="left">账号登陆</div>
+        <div class="right">扫码登陆</div>
+        <input type="text" placeholder="请输入账号" id="count">
+        <input type="text" placeholder="请输入密码" id="pass">
+        <input type="button" value="登录" id="goTo">
+        <input type="button" style="background:grey;" value="注册" onclick=Log.gogister()>
+        <p>------------------其他登陆方式------------------</p>
+        <i class="iconfont icon-weixin"> </i>
+        <i class="iconfont icon-weibo"></i>
+        <i class="iconfont icon-qq"></i>
+        <i class="iconfont icon-zhifubao"></i>
+        
+      </div>
+    </div>
+    <div class="nav2">
+      <ul>
+        <li>简体</li>
+        <li>繁体</li>
+        <li>English</li>
+        <li>常见问题</li>
+        <li class="border_none">隐私政策</li>
+      </ul>
+      <span>小米公司版权所有-京ICP备10046444-京公网安备11010802020134号-京ICP证110507号</span>
+    </div>
+  </div>
+  <script src="./js/lib.js"></script>
+  <script src="./js/ajax.js"></script>
+  <script src="./js/login.js"></script>
+</body>
+</html>
