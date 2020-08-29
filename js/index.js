@@ -113,14 +113,52 @@
         });
     }
 
-    // 懒加载
-      
-      window.onscroll = function(){
+    // 抢购萝卜图
+    let leftA = document.querySelector('.leftA');
+    let rightA = document.querySelector('.rightA');
+    let ulBox = document.querySelector('.ulBox');
+
+    leftA.onclick = function(){
+        ulBox.style.left -=100+'px';
+    }
+
+
+    console.log(leftA);
+
+
+
+  // 倒计时
+
+    var second = document.getElementById('second');
+    var hour = document.getElementById('hour');
+    var min = document.getElementById('min');
+    console.log(second);
+    var s = 59;
+    var m = 59;
+    var h = 23;
+    var times = setInterval(function () {
+        s--;
+      //console.log(s);
+        if (s < 0) {
+        s = 59;
+        m--;
+        if(m<=0){
+            m=59;
+            h--;
+        }
+        }
+        second.innerHTML = s;
+        min.innerHTML = m;
+    }, 1000);
+
+
+
+  // 懒加载
+
+window.onscroll = function(){
         var imgs = document.querySelectorAll('.lazyImg');
         lazy(imgs);
       };
-
-
 
 
 

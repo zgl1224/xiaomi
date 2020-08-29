@@ -39,14 +39,14 @@ class Log{
             // return;
             location.href = './goodsList.html';
           }
-          });
-          if(!a == 1){
-            // console.log(1234);
-            alert('用户名或密码错误，请重新输入')
-            this.count.value = '';
-            this.pass.value='';
-            // location.href = './goodsList.html';
-          }
+        });
+        if(!a == 1){
+          // console.log(1234);
+          alert('用户名或密码错误，请重新输入')
+          this.count.value = '';
+          this.pass.value='';
+          // location.href = './goodsList.html';
+        }
       }
       
     })

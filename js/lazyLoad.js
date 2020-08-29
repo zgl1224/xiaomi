@@ -17,6 +17,6 @@ function lazy(imgs){
 }
 // 下面的内容放在主体js文件中，注意节点名称
 // window.onscroll = function(){
-//   var imgs = document.querySelectorAll('.lazyImg');
+//   var imgs = document.querySelectorAll('.lazyImg'); 
 //   lazy(imgs);
 // };

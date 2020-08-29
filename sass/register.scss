@@ -26,13 +26,13 @@ html,body{
     p{
       text-align: center;
       font-size: 30px;
-      margin: 30px 0;
+      margin: 20px 0 10px 0;
     }
     .form1{
       width: 300px;
       // background: pink;
       margin: 0 auto;
-      padding: 20px 20px;
+      padding: 10px 20px;
       h2{
         font-size: 14px;
         margin-bottom: 5px;
@@ -53,6 +53,14 @@ html,body{
         margin-bottom: 5px;
         color: grey;
       }
+      span{
+        font-size: 14px;
+        color: rgb(248, 197, 120);
+      }
+      #pass{
+        margin-bottom: 10px;
+      }
+
       input[type=button]{
         margin-top: 20px;
         color: white;

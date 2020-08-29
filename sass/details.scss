@@ -51,7 +51,7 @@
     background: pink;
     .left{
       width: 500px;
-      height: 40px;
+      height: 500px;
       float: left;
       #small{
         margin-top: 50px;
@@ -61,25 +61,27 @@
           width: 500px;
           height: 400px;
         }
-        // span{
-        //   background: #ccc;opacity: 0.3;position: absolute; display: none;
-        // }
+        span{
+          background: rgb(252, 97, 97);opacity: 0.9;position: absolute;z-index: 88888888888888;width: 208px;height: 208px;display: none;
+        }
       }
-      // #big{
-      //   width: 500px;
-      //   height: 500px;
-      //   position: absolute;
-      //   top: 195px;
-      //   left: 648px;
-      //   // display: none;
-      //   overflow: hidden;
-      //   z-index: 99999999;
-      //   img{
-      //     width: 1500px;
-      //     height: 1500px;
-      //     position: absolute;
-      //   }
-      // }
+      #big{
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        top: 195px;
+        left: 730px;
+        display: none;
+
+        overflow: hidden;
+        z-index: 99999999;
+        img{
+          width: 1200px;
+          height: 1200px;
+          position: absolute;
+
+        }
+      }
     }
       // float: left;
       // border-right: 1px solid #ccc;
